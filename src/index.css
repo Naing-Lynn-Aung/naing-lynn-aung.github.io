@@ -1,0 +1,7 @@
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+section {
+  transition: all 0.7s ease-in-out;
+}
