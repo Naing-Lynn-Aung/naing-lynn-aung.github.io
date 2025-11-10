@@ -4,6 +4,12 @@ function Projects() {
   const [ref, isVisible] = useScrollAnimation();
   const projects = [
     {
+      title: 'Chatting App',
+      tech: 'Node.js, React, Socket.IO, Cloudinary, MaterialUI',
+      desc: 'A real-time chat app with image uploads, delivery/read receipts, soft delete with auto-purge, and online presence tracking.',
+      link: 'https://chatting-app-six-woad.vercel.app/',
+    },
+    {
       title: 'AI Image Generator',
       tech: 'Node.js, Tailwind, Hugging Face API',
       desc: 'A web app that lets users generate images using free AI APIs. Includes upload preview, prompt refinement, and download flow.',
